@@ -1,0 +1,333 @@
+/* ALL BTN DEFAULTS */
+.sensormodule-btn {
+  background: #00b7c9;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.sensormodule-btn {
+  cursor: pointer;
+}
+
+
+.sensormodule-menu-btn {
+  display: inline-block;
+  width: 115px;
+  height: 50px;
+  padding: 5px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.sensormodule-btn:hover {
+  background: white;
+  text-align: center;
+  border-radius: 5px;
+  color: #00b7c9;
+  border-color: #00b7c9;
+  font-weight: bold;
+}
+
+.sensormodule-delete-btn {
+  background: #b50c2b;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+  padding: 5px;
+}
+
+.sensormodule-delete-btn:hover {
+  background: white;
+  text-align: center;
+  border-radius: 5px;
+  color: #b50c2b;
+  border-color: #b50c2b;
+  font-weight: bold;
+}
+
+.sensormodule-back-btn {
+  display: block;
+  width: 115px;
+  height: wrap;
+  padding: 10px;
+  line-height: 25px;
+}
+
+.sensormodule-add-btn {
+  display: inline-block;
+  padding: 8px;
+  line-height: 20px;
+  width: 132px;
+}
+
+.sensor-icon-btn {
+  width: 120px;
+  height: 120px;
+}
+
+/* END BUTTON DEFAULTS */
+
+
+
+
+/* SEARCH SENSOR PAGE */
+/* Search Sensor Bar Btns */
+.sensor-search-btn {
+  display: inline-block;
+  width: 115px;
+  padding: 5px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+/* SEARCH FIELD SETS */
+.sensor-search-fieldset {
+  display: block;
+  text-align: center;
+  background: none;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #00b7c9;
+  background-color: white;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.sensor-search-fieldset legend {
+  color: #00b7c9;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.sensor-search-fieldset label {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.search-term {
+  padding: 0px 5px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+}
+
+.search-tag {
+  padding: 0px 5px;
+  font-family: sans-serif;
+  color: #00b7c9;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+}
+
+.found-sensors-header {
+  display: inline-block;
+}
+/* SEARCH FIELD SETS
+
+/* ADD FORMS */
+.form-fieldset {
+  display: block;
+  text-align: left;
+  background: none;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #00b7c9;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.form-fieldset legend {
+  color: #00b7c9;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.form-fieldset label {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* END ADD FORMS */
+
+/* DELETE FORMS */
+.delete-form-fieldset {
+  display: block;
+  text-align: left;
+  background: none;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #b50c2b;
+  background-color: white;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.delete-form-fieldset legend {
+  color: #b50c2b;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.delete-form-fieldset label {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* END DELETE FORMS */
+
+/* Search Sensor Filter */
+.sensor-search-filter {
+  display: inline-block;
+  text-align: left;
+}
+
+.sensor-search-filter-label {
+  padding-right: 5px;
+}
+
+#edit-search-filter-wrapper {
+  margin-top: 0;
+}
+
+/* Search Results Tables */
+.sensormodule-sensor-table {
+  text-align: center;
+}
+
+.sensormodule-sensor-table-row {
+  width: 50%;
+  text-align: left;
+}
+.sensormodule-sensor-table-header {
+  width: 13%;
+  text-align: left;
+  color: #00b7c9;
+}
+
+.sensormodule-sensor-table-btn {
+  height: 50%;
+  padding: 5px;
+  align-items: center;
+}
+/* End Search Results table
+
+
+/* Sensor Details Table */
+#sensor-info-header {
+  width: 100%;
+  display: inline-block;
+}
+
+.sensor-info-table{
+	width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+.sensor-info-table td,.sensor-info-table th{
+  border:1px solid #ddd;
+	font-size:16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.sensor-info-table td {
+  width: 50%;
+}
+
+.sensor-info-table th{
+	background-color: #00b7c9;
+  color:#ffffff;
+  text-align: center;
+}
+
+.sensor-info-table tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+
+.sensor-info-table-title {
+  padding: 10px 0px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.sensor-info-table-label {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 5%;
+
+}
+
+.sensor-info-table-value {
+	text-align: left;
+	padding-left: 5%;
+}
+/* End Sensor Details Table */
+
+
+/* Table Buttons */
+.sensormodule-table-btn {
+  display: block;
+  width: 110px;
+  height: 50%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  align-items: center;
+}
+
+/* Page Titles */
+.sensormodule-title {
+  padding: 10px 0px;
+  font-family: sans-serif;
+  color: #00b7c9;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+}
+
+/* Remove Pages */
+.sensormodule-remove-title {
+  padding: 10px 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #b31c27;
+  text-align: center;
+}
+
+/* Themed <hr> */
+.sensormodule-hr {
+  background-color: #00b7c9;
+  border: 1px solid #00b7c9;
+  border-radius: 2px;
+  margin: 20px 0px;
+}
+
+/*MAIN MENU FORM CSS*/
+#main-menu {
+  display: flex;
+  justify-content: space-around;
+}
+/*MAIN MENU HEADER*/
+#main-menu-header {
+  text-align: center;
+} 
+
+
+
